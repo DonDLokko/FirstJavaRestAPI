@@ -23,4 +23,9 @@ public class FunRestController {
         return "Hallo Wereld! Mijn lokale tijd is: " + formatDateTime ;
     }
 
+    @GetMapping("/workout")
+    public String workOut() {
+        return "lets go workout!";
+    }
+
 }
